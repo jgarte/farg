@@ -1,6 +1,7 @@
 (define-module (farg reload)
   #:use-module (guix gexp)
   #:use-module (srfi srfi-1)
+  #:use-module (ice-9 format)
   #:use-module (ice-9 ftw)
   #:use-module (ice-9 rdelim)
   #:use-module (ice-9 textual-ports)

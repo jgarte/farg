@@ -1,5 +1,6 @@
 (define-module (farg colors)
   #:use-module (srfi srfi-1)
+  #:use-module (ice-9 format)
   #:use-module (ice-9 match)
   #:use-module (farg utils)
   #:export (
